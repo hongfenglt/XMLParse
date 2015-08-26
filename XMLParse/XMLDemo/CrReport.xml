@@ -1,0 +1,56 @@
+<CrReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/">
+	<CrRptByHour>
+		<CrReportByHour>
+			<Hour>10</Hour>
+			<Caption>10-12</Caption>
+			<CrChannel>0.8</CrChannel>
+			<CrRegion>0.6</CrRegion>
+			<CrArea>0.7</CrArea>
+		</CrReportByHour>
+		<CrReportByHour>
+			<Hour>12</Hour>
+			<Caption>12-14</Caption>
+			<CrChannel>1.5</CrChannel>
+			<CrRegion>0.9</CrRegion>
+			<CrArea>1.0</CrArea>
+		</CrReportByHour>
+	</CrRptByHour>
+	<CrRptByDay>
+		<CrReportByDay>
+			<Date>2015-03-02T00:00:00+08:00</Date>
+			<WeekDay>1</WeekDay>
+			<CrChannel>0.0330</CrChannel>
+			<CrRegion>0.0290</CrRegion>
+			<CrArea>0.0290</CrArea>
+		</CrReportByDay>
+		<CrReportByDay>
+			<Date>2015-03-02T00:00:00+08:00</Date>
+			<WeekDay>2</WeekDay>
+			<CrChannel>0.0310</CrChannel>
+			<CrRegion>0.0280</CrRegion>
+			<CrArea>0.0300</CrArea>
+		</CrReportByDay>
+	</CrRptByDay>
+	<CrRptSubTotal>
+		<CrReportSubTotal>
+			<RegionType>0</RegionType>
+			<Caption>SA Channel</Caption>
+			<CrYTD>0.0310</CrYTD>
+			<CrQTD>0.0310</CrQTD>
+			<CrMTD>0.0290</CrMTD>
+			<CrWTD>0.0000</CrWTD>
+			<CrYersterday>0.0000</CrYersterday>
+			<CrToday>0</CrToday>
+		</CrReportSubTotal>
+		<CrReportSubTotal>
+			<RegionType>1</RegionType>
+			<Caption>SA North B</Caption>
+			<CrYTD>0.0280</CrYTD>
+			<CrQTD>0.0280</CrQTD>
+			<CrMTD>0.0280</CrMTD>
+			<CrWTD>0.0000</CrWTD>
+			<CrYersterday>0.0000</CrYersterday>
+			<CrToday>0</CrToday>
+		</CrReportSubTotal>
+	</CrRptSubTotal>
+</CrReport>

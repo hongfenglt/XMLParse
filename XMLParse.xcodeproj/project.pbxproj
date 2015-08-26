@@ -14,6 +14,13 @@
 		C02B8C491B8C0E5800CE1993 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02B8C481B8C0E5800CE1993 /* Images.xcassets */; };
 		C02B8C4C1B8C0E5800CE1993 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C02B8C4A1B8C0E5800CE1993 /* LaunchScreen.xib */; };
 		C02B8C581B8C0E5800CE1993 /* XMLParseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B8C571B8C0E5800CE1993 /* XMLParseTests.m */; };
+		C02B8C751B8C10E900CE1993 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C02B8C741B8C10E900CE1993 /* libxml2.2.dylib */; };
+		C02B8C831B8C3D5200CE1993 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B8C781B8C3D5200CE1993 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C02B8C841B8C3D5200CE1993 /* XmlNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B8C7A1B8C3D5200CE1993 /* XmlNode.m */; };
+		C02B8C851B8C3D5200CE1993 /* XmlParseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B8C7C1B8C3D5200CE1993 /* XmlParseHelper.m */; };
+		C02B8C861B8C3D5200CE1993 /* CrReport.xml in Resources */ = {isa = PBXBuildFile; fileRef = C02B8C7E1B8C3D5200CE1993 /* CrReport.xml */; };
+		C02B8C871B8C3D5200CE1993 /* GdataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B8C801B8C3D5200CE1993 /* GdataParser.m */; };
+		C02B8C881B8C3D5200CE1993 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B8C821B8C3D5200CE1993 /* XMLParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,18 @@
 		C02B8C511B8C0E5800CE1993 /* XMLParseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMLParseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02B8C561B8C0E5800CE1993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02B8C571B8C0E5800CE1993 /* XMLParseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLParseTests.m; sourceTree = "<group>"; };
+		C02B8C741B8C10E900CE1993 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		C02B8C771B8C3D5200CE1993 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		C02B8C781B8C3D5200CE1993 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		C02B8C791B8C3D5200CE1993 /* XmlNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlNode.h; sourceTree = "<group>"; };
+		C02B8C7A1B8C3D5200CE1993 /* XmlNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlNode.m; sourceTree = "<group>"; };
+		C02B8C7B1B8C3D5200CE1993 /* XmlParseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParseHelper.h; sourceTree = "<group>"; };
+		C02B8C7C1B8C3D5200CE1993 /* XmlParseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlParseHelper.m; sourceTree = "<group>"; };
+		C02B8C7E1B8C3D5200CE1993 /* CrReport.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CrReport.xml; sourceTree = "<group>"; };
+		C02B8C7F1B8C3D5200CE1993 /* GdataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GdataParser.h; sourceTree = "<group>"; };
+		C02B8C801B8C3D5200CE1993 /* GdataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GdataParser.m; sourceTree = "<group>"; };
+		C02B8C811B8C3D5200CE1993 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		C02B8C821B8C3D5200CE1993 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02B8C751B8C10E900CE1993 /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,7 @@
 		C02B8C2F1B8C0E5800CE1993 = {
 			isa = PBXGroup;
 			children = (
+				C02B8C741B8C10E900CE1993 /* libxml2.2.dylib */,
 				C02B8C3A1B8C0E5800CE1993 /* XMLParse */,
 				C02B8C541B8C0E5800CE1993 /* XMLParseTests */,
 				C02B8C391B8C0E5800CE1993 /* Products */,
@@ -81,6 +102,8 @@
 		C02B8C3A1B8C0E5800CE1993 /* XMLParse */ = {
 			isa = PBXGroup;
 			children = (
+				C02B8C761B8C3D5200CE1993 /* XML */,
+				C02B8C7D1B8C3D5200CE1993 /* XMLDemo */,
 				C02B8C3F1B8C0E5800CE1993 /* AppDelegate.h */,
 				C02B8C401B8C0E5800CE1993 /* AppDelegate.m */,
 				C02B8C421B8C0E5800CE1993 /* ViewController.h */,
@@ -117,6 +140,31 @@
 				C02B8C561B8C0E5800CE1993 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C02B8C761B8C3D5200CE1993 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				C02B8C771B8C3D5200CE1993 /* GDataXMLNode.h */,
+				C02B8C781B8C3D5200CE1993 /* GDataXMLNode.m */,
+				C02B8C791B8C3D5200CE1993 /* XmlNode.h */,
+				C02B8C7A1B8C3D5200CE1993 /* XmlNode.m */,
+				C02B8C7B1B8C3D5200CE1993 /* XmlParseHelper.h */,
+				C02B8C7C1B8C3D5200CE1993 /* XmlParseHelper.m */,
+			);
+			path = XML;
+			sourceTree = "<group>";
+		};
+		C02B8C7D1B8C3D5200CE1993 /* XMLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C02B8C7E1B8C3D5200CE1993 /* CrReport.xml */,
+				C02B8C7F1B8C3D5200CE1993 /* GdataParser.h */,
+				C02B8C801B8C3D5200CE1993 /* GdataParser.m */,
+				C02B8C811B8C3D5200CE1993 /* XMLParser.h */,
+				C02B8C821B8C3D5200CE1993 /* XMLParser.m */,
+			);
+			path = XMLDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02B8C861B8C3D5200CE1993 /* CrReport.xml in Resources */,
 				C02B8C471B8C0E5800CE1993 /* Main.storyboard in Resources */,
 				C02B8C4C1B8C0E5800CE1993 /* LaunchScreen.xib in Resources */,
 				C02B8C491B8C0E5800CE1993 /* Images.xcassets in Resources */,
@@ -221,7 +270,12 @@
 			files = (
 				C02B8C441B8C0E5800CE1993 /* ViewController.m in Sources */,
 				C02B8C411B8C0E5800CE1993 /* AppDelegate.m in Sources */,
+				C02B8C831B8C3D5200CE1993 /* GDataXMLNode.m in Sources */,
+				C02B8C841B8C3D5200CE1993 /* XmlNode.m in Sources */,
+				C02B8C851B8C3D5200CE1993 /* XmlParseHelper.m in Sources */,
 				C02B8C3E1B8C0E5800CE1993 /* main.m in Sources */,
+				C02B8C871B8C3D5200CE1993 /* GdataParser.m in Sources */,
+				C02B8C881B8C3D5200CE1993 /* XMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,8 +403,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = XMLParse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,8 +419,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = XMLParse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -418,6 +484,7 @@
 				C02B8C5D1B8C0E5800CE1993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C02B8C5E1B8C0E5800CE1993 /* Build configuration list for PBXNativeTarget "XMLParseTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +493,7 @@
 				C02B8C601B8C0E5800CE1993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
